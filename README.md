@@ -1,9 +1,15 @@
 # Http call performence
+
+## Description
 This repo demonstrate how to reduce processing time of HTTP call in python.
 
 As the `requests` module won't allow full performances, I used the [httpx module](https://www.python-httpx.org/).
 
 This material is highly inspired from [this video](https://www.youtube.com/watch?v=qAh5dDODJ5k). I encourage you to see it for more explainations!
+
+## Other resources
+- [[VIDEO] Asyncio basics explainations](https://www.youtube.com/watch?v=2IW-ZEui4h4)
+- [[VIDEO] Advanced Asyncio and concurrent programming explainations](https://www.youtube.com/watch?v=GpqAQxH1Afc&t=2s)
 
 ## Installation
 To run this code you will need the `httpx` and `requests` module.
