@@ -3,7 +3,7 @@ This repo demonstrate how to reduce processing time of HTTP call in python.
 
 As the `requests` module won't allow full performances, I used the [httpx module](https://www.python-httpx.org/).
 
-This material is highly inspired on [this video](https://www.youtube.com/watch?v=qAh5dDODJ5k). I encourage you to see it for more explainations!
+This material is highly inspired from [this video](https://www.youtube.com/watch?v=qAh5dDODJ5k). I encourage you to see it for more explainations!
 
 ## Installation
 To run this code you will need the `httpx` and `requests` module.
