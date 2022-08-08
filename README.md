@@ -12,7 +12,8 @@ In your projects, your should choose one of them.
 
 You can install it with:
 
-`pip install httpx`
+- `pip install httpx`
+- `pip install requests`
 
 ## Code
 You can find the here in [main.py](./main.py) with some comments.
