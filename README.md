@@ -27,7 +27,7 @@ You can install it with:
 You can find the here in [main.py](./main.py) with some comments.
 
 ## Perf report
-Those are the result of GET requests made on `https://quotable.io/random` with a Macbook Pro 16" i9 processor on 08/08/2022.
+Those are the result of GET requests made on `https://quotable.io/random` with a `Macbook Pro 16" i9 processor` on the `08/08/2022`.
 
 The results could change depending on the API but the gap should be more or less the same.
 
