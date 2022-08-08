@@ -43,15 +43,15 @@ The results could change depending on the API but the gap should be more or less
 - **50 requests** = `6 sec`
 - **150 requests** = `19 sec`
 
-### Httpx.client.get SYNC for loop
+### Httpx.Client.get SYNC for loop
 - **50 requests** = `6 sec`
 - **150 requests** = `19 sec`
 
-### Httpx.client.get ASYNC for loop
+### Httpx.AsyncClient.get ASYNC for loop
 - **50 requests** = `6 sec`
 - **150 requests** = `19 sec`
 
-### Httpx.client.get ASYNC tasks
+### Httpx.AsyncClient.get ASYNC tasks
 - **50 requests** = `0.8 sec`
 - **150 requests** = `1 sec`
 - **1000 requests** = `9 sec`
