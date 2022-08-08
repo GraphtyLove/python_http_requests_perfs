@@ -1,6 +1,7 @@
 anyio==3.6.1
 certifi==2022.6.15
 cfgv==3.3.1
+charset-normalizer==2.1.0
 distlib==0.3.5
 filelock==3.7.1
 h11==0.12.0
@@ -14,7 +15,9 @@ pre-commit==2.9.2
 pycairo==1.21.0
 PyGObject==3.42.2
 PyYAML==6.0
+requests==2.28.1
 rfc3986==1.5.0
 sniffio==1.2.0
 toml==0.10.2
+urllib3==1.26.11
 virtualenv==20.16.3

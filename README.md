@@ -6,7 +6,9 @@ As the `requests` module won't allow full performances, I used the [httpx module
 This material is highly inspired on [this video](https://www.youtube.com/watch?v=qAh5dDODJ5k). I encourage your to see it for more explainations!
 
 ## Installation
-To run this code you will need the `httpx` module.
+To run this code you will need the `httpx` and `requests` module.
+
+In your projects, your should choose one of them.
 
 You can install it with:
 
@@ -21,24 +23,26 @@ Those are the result of GET requests made on `https://quotable.io/random` with a
 The results could change depending on the API but the gap should be more or less the same.
 
 ### requests.get for loop
-- 50 -> 24 sec
+- **50 requests** = `24 sec`
+- **150 requests** = `54 sec`
 
 ### Httpx.get for loop
-- 50 -> 24 sec
+- **50 requests** = `24 sec`
+- **150 requests** = `54 sec`
 
 ### requests.Session.get SYNC for loop
-- 50 -> 6 sec
-- 150 -> 19 sec
+- **50 requests** = `6 sec`
+- **150 requests** = `19 sec`
 
 ### Httpx.client.get SYNC for loop
-- 50 -> 6 sec
-- 150 -> 19 sec
+- **50 requests** = `6 sec`
+- **150 requests** = `19 sec`
 
 ### Httpx.client.get ASYNC for loop
-- 50 -> 6 sec
-- 150 -> 19 sec
+- **50 requests** = `6 sec`
+- **150 requests** = `19 sec`
 
 ### Httpx.client.get ASYNC tasks
-- 50 -> 6 sec
-- 150 -> 1.6 sec
-- 1000 -> 9 sec
+- **50 requests** = `6 sec`
+- **150 requests** = `1.6 sec`
+- **1000 requests** = `9 sec`

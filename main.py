@@ -95,10 +95,16 @@ async def tasks_client_async(number_of_request: int = 50):
 
 
 if __name__ == "__main__":
-    number_of_request = 1000
+    number_of_request = 150
     
-    # for_loop(number_of_request)
+    # Sync
+    requests_for_loop(number_of_request)
+    httpx_for_loop(number_of_request)
     
-    # for_loop_client_sync(number_of_request)
-    #asyncio.run(for_loop_client_async(number_of_request))
+    # Sync with Client or Session
+    requests_for_loop_client_sync(number_of_request)
+    httpx_for_loop_client_sync(number_of_request)
+
+    # async
+    asyncio.run(for_loop_client_async(number_of_request))
     asyncio.run(tasks_client_async(number_of_request))
