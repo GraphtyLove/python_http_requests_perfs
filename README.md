@@ -52,6 +52,6 @@ The results could change depending on the API but the gap should be more or less
 - **150 requests** = `19 sec`
 
 ### Httpx.client.get ASYNC tasks
-- **50 requests** = `6 sec`
+- **50 requests** = `0.8 sec`
 - **150 requests** = `1 sec`
 - **1000 requests** = `9 sec`
