@@ -10,6 +10,8 @@ This material is highly inspired from [this video](https://www.youtube.com/watch
 ## Other resources
 - [[VIDEO] Asyncio basics explainations](https://www.youtube.com/watch?v=2IW-ZEui4h4)
 - [[VIDEO] Advanced Asyncio and concurrent programming explainations](https://www.youtube.com/watch?v=GpqAQxH1Afc&t=2s)
+- [Official httpx documentation](https://www.python-httpx.org/)
+- [Official requests documentation](https://requests.readthedocs.io/)
 
 ## Installation
 To run this code you will need the `httpx` and `requests` module.
